@@ -1,4 +1,3 @@
-![WhatsApp Image 2025-10-07 at 21 41 36_d2a9735d](https://github.com/user-attachments/assets/39716e63-dcaf-464a-93b2-360b1b762744)# FM
 
 EXP NO: 4	GENERATION AND DETECTION OF FM
 
