@@ -1,4 +1,4 @@
-# FM
+![WhatsApp Image 2025-10-07 at 21 41 36_d2a9735d](https://github.com/user-attachments/assets/39716e63-dcaf-464a-93b2-360b1b762744)# FM
 
 EXP NO: 4	GENERATION AND DETECTION OF FM
 
@@ -65,25 +65,45 @@ MODEL GRAPH:
 
 
 Program
-
+```
+Am=3.5;
+fm=244;
+Ac=7.0;
+fc=2440;
+fs=24400;
+t=0:1/fs:2/fm;
+m=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+c=Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,c);
+b= 2.8;
+efm=Ac*cos((2*3.14*fc*t)+b*sin(2*3.14*fm*t));
+subplot(3,1,3);
+plot(t,efm);
+```
 
 Output Waveform
 
+![WhatsApp Image 2025-10-07 at 21 04 35_b778f280](https://github.com/user-attachments/assets/31e59561-8735-43e5-b2db-cedbb20d9363)
 
 
 Tabulation
 
+![WhatsApp Image 2025-10-07 at 20 52 49_d2663361](https://github.com/user-attachments/assets/9132a4aa-3755-45e8-9cf4-b0c5fa9ab48d)
 
 
 Calculation
 
+![WhatsApp Image 2025-10-07 at 21 41 36_d2a9735d](https://github.com/user-attachments/assets/5d237586-4d7e-4206-b813-1541cf9f525a)
 
 
-Frequency Deviation Practical = 
+Frequency Deviation Practical = 686
 
-Modulation Index Practical	= 
+Modulation Index Practical	= 0.5
 
-Modulation Index Theoretical	=
+Modulation Index Theoretical	=0.4
 
 
 
